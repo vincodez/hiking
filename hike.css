@@ -1,0 +1,77 @@
+body{
+    margin-top: -20px;
+    padding: 0;
+    background-image: url(/hike.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: grey;
+}
+nav{
+    display: flex;
+          justify-content: space-between;
+          align-content: center;
+          padding: 25px 50px ;
+          text-decoration: none;
+          word-wrap: 10px;
+          margin-bottom: 20px;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+    transition: border-color 2s;
+    
+}
+a:hover{
+    border-color: rgb(88, 86, 86);
+}
+.logo{
+  font-weight: bold;
+  font-size: 38px;
+}
+.content{
+ margin-top: 2px;
+}
+.other{
+    color: black;
+    border: 2px solid black;
+    height: 250px;
+    width: 200px;
+    align-items: center;
+    margin: auto;
+    padding-left: 25px;
+    padding-top: 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(degree-of-blur);
+}
+
+.lab{
+    font-size: 10px;
+   
+}
+.inp{
+    background:transparent;
+    border: 2px solid black;
+    border-bottom: 2;
+    border-radius: 5px;
+}
+.inp:hover{
+    border-color: grey;
+}
+.btn{
+    width: 170px;
+    margin-top: 40px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(185, 182, 189);
+}
+.last{
+    margin-left: 40%;
+    color: black;
+    font-size: 25px;
+}

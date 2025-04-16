@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AILRLINE LOGIN FORM</title>
+    <style>
+        body{
+          background-image: url(/istockphoto-486836087-612x612.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+            color: aliceblue;
+        }
+        .logo{
+            margin: 0;
+            padding: 0;
+          
+            font-weight: bold;
+            font-size: 40px;
+        }
+        .container{
+            width: 40%;
+            height: 620px;
+            background-color: rgb(58, 58, 55);
+            /* display: flex; */
+            justify-self: center;
+            opacity: 0.7;
+            color: black;
+            padding-left: 30px;
+            margin-top: 50px;
+
+        }
+        .content{
+            text-decoration: underline;
+            padding-left: 20px;
+            padding-top: 30px;
+            font-size: 30px;
+            font-weight: bolder;
+            color: aliceblue;
+
+        }
+        .info{
+            display: flex;
+           
+        }
+        .input{
+            border: none;
+            border-bottom: 2px solid #fafafa;
+            background-color: transparent;
+            outline: none;
+            padding-top: 20px;
+            margin-left: 20px;
+            width: 40%;
+            display: flex;
+            color: aliceblue;
+
+        }
+        .input2{
+            margin-left: 50px;
+            border: none;
+            border-bottom: 2px solid #eae5e5;
+            background-color: transparent;
+            outline: none;
+            width: 40%;
+            padding-top: 20px;
+            color: aliceblue;
+        }
+        .input1{
+            margin-left: 20px;
+            border: none;
+            border-bottom: 2px solid #eae5e5;
+            background-color: transparent;
+            outline: none;
+            padding-top: 20px;
+            width: 23%;
+            color: #fff;
+        }
+        .input3{
+            margin-left: 50px;
+            border: none;
+            border-bottom: 2px solid #eae5e5;
+            background-color: transparent;
+            outline: none;
+            padding-top: 20px;
+            width: 23%;
+            color: #fff;
+        }
+        .diff{
+            margin-left: 50px;
+            border: none;
+            border-bottom: 2px solid #eae5e5;
+            background-color: transparent;
+            outline: none;
+            padding-top: 20px;
+            width: 25%;
+            color: aliceblue;
+        }
+        .labl{
+            color:#a6a9ab;
+            padding-top: 20px;
+            padding-left: 20px;
+            font-weight: bold;
+            display: flex;
+        }
+        .inp1{
+            margin-left: 30px;
+            color: aliceblue;
+        }
+        .inp2{
+            margin-left: 30px;
+            color: aliceblue;
+        }
+        .input5{
+            border: none;
+            border-bottom: 2px solid #fafafa;
+            background-color: transparent;
+            outline: none;
+            padding-top: 20px;
+            margin-left: 20px;
+            width: 88%;
+            display: flex;
+            color: aliceblue;
+            height: 35px;
+           
+        }
+        .personal{
+            padding-top: 20px;
+            margin-left: 20px;
+            color: #fafafa;
+        }
+        .personal h4{
+            text-decoration-line: underline;
+            color: rgb(20, 127, 221);
+            font-weight: bold;
+            font-size: larger;
+            
+        }
+        .person{
+            border: none;
+            border-bottom: 2px solid #fafafa;
+            background-color: transparent;
+            outline: none;
+            width: 40%;
+            color: aliceblue    ;
+        }
+        .person1{
+            border: none;
+            border-bottom: 2px solid #fafafa;
+            background-color: transparent;
+            outline: none;
+            width: 40%;
+            margin-left: 50px;
+            color: aliceblue;
+        }
+        .person2{
+            padding-top: 20px;
+            border: none;
+            border-bottom: 2px solid #fafafa;
+            background-color: transparent;
+            outline: none;
+            width: 90%;
+            color: aliceblue;
+        }
+        .btn1{
+            background-color: chocolate;
+            margin-left: 20px;
+            margin-top: 30px;
+            width: 20%;
+            color: aliceblue;
+            height: 30px;
+        }
+        .btn2{
+            background-color: rgb(23, 109, 109);
+            margin-left: 30px;
+            width: 20%;
+            color: aliceblue;
+            height: 30px;
+        }
+        .btn2:hover{
+            background-color: rgb(31, 113, 161);
+        }
+        .textbox-n input{
+            margin-left: 20px;
+        }
+        .nav 
+        {display: flex;
+          justify-content: space-between;
+          align-content: end;
+        }
+             
+              
+    </style>
+</head>
+<body><div class="nav">
+    <H2 class="logo">AIRLINE LOGIN FORM</H2>
+    <div></div class="bar">
+    <a href="#">HOME</a><a href="">ABOUTUS</a><a href="">CONTACT</a><a href="">HELP</a>
+       </div>
+    <div class="container">
+       <div class="content">Booking Details</div>
+      <div class="info"> <input type="text" class="input" placeholder="From">
+        <input type="text" class="input2" placeholder="To">
+    </div>
+    <div class="info"> <input type="text" class="input" placeholder="Preferd Airline">
+        <input type="text" class="input2" placeholder="Preferd Seating">
+    </div>
+    <div class="info"> <input placeholder="Departure Date" class="textbox-n input" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+        <input placeholder="Departure Time" class="textbox-n input" type="text" onfocus="(this.type='time')" onblur="(this.type='text')" id="date" />
+    </div>
+    <div class="info"> <input type="number" class="input1" placeholder="adult (12 + yrs)">
+        <input type="number" class="input3" placeholder="children (2 - 11 yrs)">
+        <input type="text" class="diff" placeholder="infnat( under 2 yrs)">
+    </div>
+    <div class="labl">
+        <div style="color: rgb(12, 104, 217);">select your frame</div>
+       <input type="radio" name="dname" id="" class="inp1">one way
+       <input type="radio" name="dname" id="" class="inp2"> Round-trip
+    </div>
+    <div class="info"> 
+        <input placeholder="Departure Date" class="textbox-n input" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+        <input placeholder="Departure Time" class="textbox-n input" type="text" onfocus="(this.type='time')" onblur="(this.type='text')" id="date" />
+    </div>
+    <div><div class="info"> <input type="text" class="input5" placeholder="Any message"></div>
+    <div class="personal">
+        <h4>Personal Details</h4>
+        <div>
+            <input type="text" class="person" name="" id="" placeholder="Full Name">
+            <input type="number" class="person1" name="" id="" placeholder="Phone number">
+        </div>
+        <input type="email" class="person2" placeholder="Email" required>
+    </div>
+    <div>
+        <button type="submit" class="btn1" >Submit</button>
+        <button type="reset" class="btn2">Clear form</button>
+    </div>
+    </div>
+</body>
+</html>
