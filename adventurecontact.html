@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         nav{
+           background-color: black;
+            display: flex;
+          justify-content: space-between;
+          align-content: center;
+          padding: 25px 50px ;
+        }
+        .logo{
+            color: rgb(255, 255, 255);
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .nav a{
+            text-decoration: none;
+            color:rgb(189, 189, 189);
+            margin-left: 25px;
+            border: 2px solid transparent;
+            padding: 5px 10px;
+            transition: border-color 0.3s;
+        }
+        .nav a:hover{
+            border-color: grey;
+        }
+        .content{
+            height: 300px;
+            width: 300px;
+        }
+        .input1{
+            border: 1px solid grey;
+            width: 10px;
+            height: 30px;
+        }
+        .content{
+            display: flex;
+           
+            gap: 20px;
+        }
+        .input1:hover{
+            border-color: rgb(0, 183, 255);
+        }
+        .input2{
+            border: 1px solid grey;
+            width: 500px;
+            height: 300px;
+        }
+        .input2:hover{
+            border-color: rgb(0, 183, 255);
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="contact">
+       <nav>
+        <div class="logo">ADVENTURE</div>
+        <div class="nav a">
+            <a href="#">HOME</a>
+            <a href="#">ABOUTUS</a>
+            <a href="#">SERVICE</a>
+            <a href="#">GALLERY</a>
+            <a href="#">FAQ</a>
+            <a href="#">CONTACTUS</a>
+            <a href="#">PAGES</a>
+        </div>
+        
+    </nav>
+    <div class="content">
+          <input type="text" class="input1" name="" id="" placeholder="Enter Your Name">
+          <input type="text" class="input2" name="" id="" placeholder="Enter Your Message">
+        </div>
+    </div>
+</body>
+</html>
